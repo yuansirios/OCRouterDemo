@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AD8733C02CD2BBA05749D30 /* libPods-OCRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709FEA1BD6DDE6416C6D35 /* libPods-OCRouterDemo.a */; };
+		F81BD24A20DB8444001894B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81BD24920DB8444001894B6 /* AppDelegate.m */; };
+		F81BD25220DB8445001894B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81BD25120DB8445001894B6 /* Assets.xcassets */; };
+		F81BD25820DB8445001894B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F81BD25720DB8445001894B6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7623595CB3E0ACD88A7738 /* Pods-OCRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRouterDemo/Pods-OCRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		40709FEA1BD6DDE6416C6D35 /* libPods-OCRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01D25CE25F3173B69E8B09 /* Pods-OCRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRouterDemo/Pods-OCRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F81BD24520DB8444001894B6 /* OCRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81BD24820DB8444001894B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F81BD24920DB8444001894B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F81BD25120DB8445001894B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F81BD25620DB8445001894B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81BD25720DB8445001894B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F82329B420DC954300193F4A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81BD24220DB8444001894B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD8733C02CD2BBA05749D30 /* libPods-OCRouterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A9CEE397F3EF1883D3F649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40709FEA1BD6DDE6416C6D35 /* libPods-OCRouterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81BD23C20DB8444001894B6 = {
+			isa = PBXGroup;
+			children = (
+				F81BD24720DB8444001894B6 /* OCRouterDemo */,
+				F81BD24620DB8444001894B6 /* Products */,
+				F912EA37242CD30B75376917 /* Pods */,
+				15A9CEE397F3EF1883D3F649 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F81BD24620DB8444001894B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81BD24520DB8444001894B6 /* OCRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81BD24720DB8444001894B6 /* OCRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F81BD24820DB8444001894B6 /* AppDelegate.h */,
+				F81BD24920DB8444001894B6 /* AppDelegate.m */,
+				F81BD25120DB8445001894B6 /* Assets.xcassets */,
+				F81BD25620DB8445001894B6 /* Info.plist */,
+				F81BD25720DB8445001894B6 /* main.m */,
+				F82329B420DC954300193F4A /* PrefixHeader.pch */,
+			);
+			path = OCRouterDemo;
+			sourceTree = "<group>";
+		};
+		F912EA37242CD30B75376917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE01D25CE25F3173B69E8B09 /* Pods-OCRouterDemo.debug.xcconfig */,
+				2B7623595CB3E0ACD88A7738 /* Pods-OCRouterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81BD24420DB8444001894B6 /* OCRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81BD25B20DB8445001894B6 /* Build configuration list for PBXNativeTarget "OCRouterDemo" */;
+			buildPhases = (
+				E910BB821FF90185F5950154 /* [CP] Check Pods Manifest.lock */,
+				F81BD24120DB8444001894B6 /* Sources */,
+				F81BD24220DB8444001894B6 /* Frameworks */,
+				F81BD24320DB8444001894B6 /* Resources */,
+				2C378A5C264BDF72153A302F /* [CP] Embed Pods Frameworks */,
+				92CFA894203D779D6A18C4C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRouterDemo;
+			productName = OCRouterDemo;
+			productReference = F81BD24520DB8444001894B6 /* OCRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81BD23D20DB8444001894B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yuansirios;
+				TargetAttributes = {
+					F81BD24420DB8444001894B6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F81BD24020DB8444001894B6 /* Build configuration list for PBXProject "OCRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81BD23C20DB8444001894B6;
+			productRefGroup = F81BD24620DB8444001894B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81BD24420DB8444001894B6 /* OCRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81BD24320DB8444001894B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81BD25220DB8445001894B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C378A5C264BDF72153A302F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRouterDemo/Pods-OCRouterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CFA894203D779D6A18C4C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRouterDemo/Pods-OCRouterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E910BB821FF90185F5950154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81BD24120DB8444001894B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81BD25820DB8445001894B6 /* main.m in Sources */,
+				F81BD24A20DB8444001894B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F81BD25920DB8445001894B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F81BD25A20DB8445001894B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81BD25C20DB8445001894B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE01D25CE25F3173B69E8B09 /* Pods-OCRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4LVT4423SS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCRouterDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = OCRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuansirios.OCRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a4a1febc-f8ef-4737-a3fc-b27f72744fc4";
+				PROVISIONING_PROFILE_SPECIFIER = EhuodiCommon;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81BD25D20DB8445001894B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7623595CB3E0ACD88A7738 /* Pods-OCRouterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4LVT4423SS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCRouterDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = OCRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuansirios.OCRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a4a1febc-f8ef-4737-a3fc-b27f72744fc4";
+				PROVISIONING_PROFILE_SPECIFIER = EhuodiCommon;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81BD24020DB8444001894B6 /* Build configuration list for PBXProject "OCRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81BD25920DB8445001894B6 /* Debug */,
+				F81BD25A20DB8445001894B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81BD25B20DB8445001894B6 /* Build configuration list for PBXNativeTarget "OCRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81BD25C20DB8445001894B6 /* Debug */,
+				F81BD25D20DB8445001894B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81BD23D20DB8444001894B6 /* Project object */;
+}
