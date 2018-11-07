@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OCRouter" "${PODS_ROOT}/Headers/Public/YSFind" "${PODS_ROOT}/Headers/Public/YSIndex"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/OCRouter" "$PODS_CONFIGURATION_BUILD_DIR/YSFind" "$PODS_CONFIGURATION_BUILD_DIR/YSIndex"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OCRouter" -isystem "${PODS_ROOT}/Headers/Public/YSFind" -isystem "${PODS_ROOT}/Headers/Public/YSIndex"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"OCRouter" -l"YSFind" -l"YSIndex"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

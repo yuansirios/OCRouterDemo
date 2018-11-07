@@ -1,0 +1,18 @@
+PODS:
+  - OCRouter (0.1.0)
+  - YSFind (0.2.0)
+  - YSIndex (0.2.0)
+
+DEPENDENCIES:
+  - OCRouter (= 0.1.0)
+  - YSFind (= 0.2.0)
+  - YSIndex (= 0.2.0)
+
+SPEC CHECKSUMS:
+  OCRouter: f4490ff871b3db968ca03146c46bab8c989ebb10
+  YSFind: 9b253fa1de34616c6011a9df1298cddc8476be55
+  YSIndex: 3f8526bb9f99645917ff99fa862fdb582300acf4
+
+PODFILE CHECKSUM: 794ef333ce2a4ef34d7ec661eb14bdc677dcf7f1
+
+COCOAPODS: 1.2.1

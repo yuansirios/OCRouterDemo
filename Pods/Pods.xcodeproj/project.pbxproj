@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD60349FD953F65DCFDC74C10F3F1BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		14822BC5EF77F7D72366C46289420046 /* YSFindViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F16414FCA811E38FBA288878FCBE9969 /* YSFindViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39753C2F2401421CD3F4268C12C6B378 /* YSIndexViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C8FD0DC496FBDAA96423273C0E2F3E /* YSIndexViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F8BCFA87096EB8FBDD8D7ED97AEB73 /* OCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5035312D85658530A3F16AB442F75CE7 /* OCRouter.m */; };
+		8290C6FF072AF199571C8D79A169C180 /* OCTarget_Index.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F2AED322CF96E5F2A911F4D63ACF1 /* OCTarget_Index.m */; };
+		93A32617E17DC84154DE5FCD967F02D6 /* Pods-OCRouterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D840878CEB876A03F307DFB4DE4B93C /* Pods-OCRouterDemo-dummy.m */; };
+		97CE517A8FBD79E7581DA6B7BC013FBC /* OCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 185876989D0A2A058F5D026B7EFB1B94 /* OCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13F54DE6282A34B62B4373EC460771E /* YSIndex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20369609EE5E79FDFA53C4C764F072 /* YSIndex-dummy.m */; };
+		A2936D2ADDA771A4E6CBE21184FE61DE /* OCTarget_Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA423D9CBD2AD595497265BFAD83CD2 /* OCTarget_Find.m */; };
+		AE6921C7111A3A66640765CF4CF862A6 /* YSFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71123EAFFEF953DB036C095CC0E2985 /* YSFindViewController.m */; };
+		C6A91D45A6F4C14BDB32C631DF9F8154 /* YSFind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDCFD89A9E00966EFF7408BE0B5B8DB /* YSFind-dummy.m */; };
+		C9990F32B7B82BC05920373F55DADD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF73D3AB7359E24C5A46BF1ACA35BB08 /* OCTarget_Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B396FD97D58AB227520756912768BF /* OCTarget_Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B4F8953299E2A6F59E4E3206F137DC /* OCRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5874D3DAB9810395F975A67F4E8461 /* OCRouter-dummy.m */; };
+		DFDD94FD30690C71E2F1B7E781B1FC83 /* OCTarget_Index.h in Headers */ = {isa = PBXBuildFile; fileRef = 206884D46CD0F46B9D910419E88DA2E5 /* OCTarget_Index.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42C3D3F148692AE46162E065426AB2E /* YSIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EECB1BC457D9AFEB25FF65870667 /* YSIndexViewController.m */; };
+		F50C4E14381EEFE03E39EA7ACB5ED056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA65482C7A871D19F59A4094A35BD995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F4ACFD9ADACED1872B2007BCA42098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765605EF21235ACABE8DDCEE91DB1DAA;
+			remoteInfo = YSFind;
+		};
+		42700F8CBD1F2210A97F971E9DF51C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE136B7CB3DDE867437C113082D95B2;
+			remoteInfo = YSIndex;
+		};
+		95D60FCA2A7ED41B0E1E2F64957D5141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4931D5BBD6CAE2BB03520B2DDB7B327F;
+			remoteInfo = OCRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDCFD89A9E00966EFF7408BE0B5B8DB /* YSFind-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSFind-dummy.m"; sourceTree = "<group>"; };
+		12B396FD97D58AB227520756912768BF /* OCTarget_Find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTarget_Find.h; path = YSFind/Classes/OCTarget_Find.h; sourceTree = "<group>"; };
+		185876989D0A2A058F5D026B7EFB1B94 /* OCRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRouter.h; path = OCRouter/Classes/OCRouter.h; sourceTree = "<group>"; };
+		1A5874D3DAB9810395F975A67F4E8461 /* OCRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCRouter-dummy.m"; sourceTree = "<group>"; };
+		206884D46CD0F46B9D910419E88DA2E5 /* OCTarget_Index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTarget_Index.h; path = YSIndex/Classes/OCTarget_Index.h; sourceTree = "<group>"; };
+		2AA423D9CBD2AD595497265BFAD83CD2 /* OCTarget_Find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTarget_Find.m; path = YSFind/Classes/OCTarget_Find.m; sourceTree = "<group>"; };
+		2FD3EECB1BC457D9AFEB25FF65870667 /* YSIndexViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSIndexViewController.m; path = YSIndex/Classes/YSIndexViewController.m; sourceTree = "<group>"; };
+		35A210AB2039E13F551D9E342A80C9B4 /* YSFind.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSFind.xcconfig; sourceTree = "<group>"; };
+		3A827B1266DAC75C318F8E0B1988270E /* Pods-OCRouterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRouterDemo-resources.sh"; sourceTree = "<group>"; };
+		40649F80E689D66EEAC4C21EB61124AC /* OCRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCRouter-prefix.pch"; sourceTree = "<group>"; };
+		4D7B508AC0DF4740FDD0CECFB378E3C5 /* OCRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRouter.xcconfig; sourceTree = "<group>"; };
+		5035312D85658530A3F16AB442F75CE7 /* OCRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCRouter.m; path = OCRouter/Classes/OCRouter.m; sourceTree = "<group>"; };
+		508AAED6003E7BDE7259A9CF30FB4F51 /* YSIndex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSIndex-prefix.pch"; sourceTree = "<group>"; };
+		65E86450299F3C43445230F8E7EE6E1B /* Pods-OCRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72C8FD0DC496FBDAA96423273C0E2F3E /* YSIndexViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YSIndexViewController.h; path = YSIndex/Classes/YSIndexViewController.h; sourceTree = "<group>"; };
+		779E10F7E81C508F2BC43FDEE79225C0 /* YSFind-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSFind-prefix.pch"; sourceTree = "<group>"; };
+		7E20369609EE5E79FDFA53C4C764F072 /* YSIndex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSIndex-dummy.m"; sourceTree = "<group>"; };
+		8B78EB9C3C217B8B85FE4F3182E417BB /* Pods-OCRouterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRouterDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8CA56F6178A596858D29F0EADA3007D4 /* Pods-OCRouterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRouterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D840878CEB876A03F307DFB4DE4B93C /* Pods-OCRouterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRouterDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D39400469B93F158E4FA1AB4FBDE62 /* Pods-OCRouterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRouterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A20443B6638CE6BF9DAD8C62978FF849 /* YSIndex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSIndex.xcconfig; sourceTree = "<group>"; };
+		C13F2AED322CF96E5F2A911F4D63ACF1 /* OCTarget_Index.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTarget_Index.m; path = YSIndex/Classes/OCTarget_Index.m; sourceTree = "<group>"; };
+		C6467A2A14AC13C6B39662DFF046891B /* Pods-OCRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CDD62B6FE2B809009B4A781AC477FBAF /* libYSIndex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYSIndex.a; path = libYSIndex.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BF10243B0896D93A59B685195AF0B /* libOCRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOCRouter.a; path = libOCRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE51217E951547EE0E936F688194EE42 /* libYSFind.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYSFind.a; path = libYSFind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16414FCA811E38FBA288878FCBE9969 /* YSFindViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YSFindViewController.h; path = YSFind/Classes/YSFindViewController.h; sourceTree = "<group>"; };
+		F6CA1435CBAA4C6C2BF578FCE55C4B4C /* libPods-OCRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCRouterDemo.a"; path = "libPods-OCRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71123EAFFEF953DB036C095CC0E2985 /* YSFindViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSFindViewController.m; path = YSFind/Classes/YSFindViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CF7D2C061EC53DF111B4704CE258C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD60349FD953F65DCFDC74C10F3F1BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8EBB97BAE1C57AAA1056667A5F08E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA65482C7A871D19F59A4094A35BD995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6049FB78576E4D717F271C0E5DE8DB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9990F32B7B82BC05920373F55DADD16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50DB81DF48757AF4263F0E8ECF1361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C4E14381EEFE03E39EA7ACB5ED056 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFD7E1A334B4EC50233B7A5B91AB973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A191A5DD8E4BAA813C55CE8637711E66 /* OCRouter */,
+				8AC2F47C7C55C235E3F130475963FC61 /* YSFind */,
+				D2092C2BB5B3C2CD70437D415156634F /* YSIndex */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36CA623635216AB2119CECB7F44674F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20443B6638CE6BF9DAD8C62978FF849 /* YSIndex.xcconfig */,
+				7E20369609EE5E79FDFA53C4C764F072 /* YSIndex-dummy.m */,
+				508AAED6003E7BDE7259A9CF30FB4F51 /* YSIndex-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YSIndex";
+			sourceTree = "<group>";
+		};
+		3C8C1983EFBE745EEEF38FEA962415BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B508AC0DF4740FDD0CECFB378E3C5 /* OCRouter.xcconfig */,
+				1A5874D3DAB9810395F975A67F4E8461 /* OCRouter-dummy.m */,
+				40649F80E689D66EEAC4C21EB61124AC /* OCRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCRouter";
+			sourceTree = "<group>";
+		};
+		722BF691867A0A5BFE67F7F8C5FAF7EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35A210AB2039E13F551D9E342A80C9B4 /* YSFind.xcconfig */,
+				0FDCFD89A9E00966EFF7408BE0B5B8DB /* YSFind-dummy.m */,
+				779E10F7E81C508F2BC43FDEE79225C0 /* YSFind-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YSFind";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1AFD7E1A334B4EC50233B7A5B91AB973 /* Pods */,
+				A396BB7E92F8FD49137DACC9F61F2C37 /* Products */,
+				F919B9D41F205504C0B7F00BEC5886F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC2F47C7C55C235E3F130475963FC61 /* YSFind */ = {
+			isa = PBXGroup;
+			children = (
+				12B396FD97D58AB227520756912768BF /* OCTarget_Find.h */,
+				2AA423D9CBD2AD595497265BFAD83CD2 /* OCTarget_Find.m */,
+				F16414FCA811E38FBA288878FCBE9969 /* YSFindViewController.h */,
+				F71123EAFFEF953DB036C095CC0E2985 /* YSFindViewController.m */,
+				722BF691867A0A5BFE67F7F8C5FAF7EB /* Support Files */,
+			);
+			name = YSFind;
+			path = YSFind;
+			sourceTree = "<group>";
+		};
+		A191A5DD8E4BAA813C55CE8637711E66 /* OCRouter */ = {
+			isa = PBXGroup;
+			children = (
+				185876989D0A2A058F5D026B7EFB1B94 /* OCRouter.h */,
+				5035312D85658530A3F16AB442F75CE7 /* OCRouter.m */,
+				3C8C1983EFBE745EEEF38FEA962415BF /* Support Files */,
+			);
+			name = OCRouter;
+			path = OCRouter;
+			sourceTree = "<group>";
+		};
+		A396BB7E92F8FD49137DACC9F61F2C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BF10243B0896D93A59B685195AF0B /* libOCRouter.a */,
+				F6CA1435CBAA4C6C2BF578FCE55C4B4C /* libPods-OCRouterDemo.a */,
+				EE51217E951547EE0E936F688194EE42 /* libYSFind.a */,
+				CDD62B6FE2B809009B4A781AC477FBAF /* libYSIndex.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2092C2BB5B3C2CD70437D415156634F /* YSIndex */ = {
+			isa = PBXGroup;
+			children = (
+				206884D46CD0F46B9D910419E88DA2E5 /* OCTarget_Index.h */,
+				C13F2AED322CF96E5F2A911F4D63ACF1 /* OCTarget_Index.m */,
+				72C8FD0DC496FBDAA96423273C0E2F3E /* YSIndexViewController.h */,
+				2FD3EECB1BC457D9AFEB25FF65870667 /* YSIndexViewController.m */,
+				36CA623635216AB2119CECB7F44674F7 /* Support Files */,
+			);
+			name = YSIndex;
+			path = YSIndex;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F077811AF282F7CA4CE79BC987F4A366 /* Pods-OCRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CA56F6178A596858D29F0EADA3007D4 /* Pods-OCRouterDemo-acknowledgements.markdown */,
+				97D39400469B93F158E4FA1AB4FBDE62 /* Pods-OCRouterDemo-acknowledgements.plist */,
+				8D840878CEB876A03F307DFB4DE4B93C /* Pods-OCRouterDemo-dummy.m */,
+				8B78EB9C3C217B8B85FE4F3182E417BB /* Pods-OCRouterDemo-frameworks.sh */,
+				3A827B1266DAC75C318F8E0B1988270E /* Pods-OCRouterDemo-resources.sh */,
+				65E86450299F3C43445230F8E7EE6E1B /* Pods-OCRouterDemo.debug.xcconfig */,
+				C6467A2A14AC13C6B39662DFF046891B /* Pods-OCRouterDemo.release.xcconfig */,
+			);
+			name = "Pods-OCRouterDemo";
+			path = "Target Support Files/Pods-OCRouterDemo";
+			sourceTree = "<group>";
+		};
+		F919B9D41F205504C0B7F00BEC5886F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F077811AF282F7CA4CE79BC987F4A366 /* Pods-OCRouterDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31F9DF2211CBA32FC2554854B931A643 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE517A8FBD79E7581DA6B7BC013FBC /* OCRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E95D12C2E10F059AE655996DBB56DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73D3AB7359E24C5A46BF1ACA35BB08 /* OCTarget_Find.h in Headers */,
+				14822BC5EF77F7D72366C46289420046 /* YSFindViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B721E212C3E341937FDEFD3AC45BD5DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDD94FD30690C71E2F1B7E781B1FC83 /* OCTarget_Index.h in Headers */,
+				39753C2F2401421CD3F4268C12C6B378 /* YSIndexViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4931D5BBD6CAE2BB03520B2DDB7B327F /* OCRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDB3ED2BADE08E110B1B9B4A330191C /* Build configuration list for PBXNativeTarget "OCRouter" */;
+			buildPhases = (
+				83CC3505EC058E2E5543B9801E7855AD /* Sources */,
+				1A8EBB97BAE1C57AAA1056667A5F08E4 /* Frameworks */,
+				31F9DF2211CBA32FC2554854B931A643 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRouter;
+			productName = OCRouter;
+			productReference = EE3BF10243B0896D93A59B685195AF0B /* libOCRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		765605EF21235ACABE8DDCEE91DB1DAA /* YSFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1E4CE79E99CA9E2926AAF2D16775BF /* Build configuration list for PBXNativeTarget "YSFind" */;
+			buildPhases = (
+				90E88353D7CF4D8AA1627D94857C842B /* Sources */,
+				AB50DB81DF48757AF4263F0E8ECF1361 /* Frameworks */,
+				83E95D12C2E10F059AE655996DBB56DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSFind;
+			productName = YSFind;
+			productReference = EE51217E951547EE0E936F688194EE42 /* libYSFind.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BADB3FDDE80C00C26F460C2C23660120 /* Pods-OCRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F99C5F80FF5B18C64B2B2F8BCE8249 /* Build configuration list for PBXNativeTarget "Pods-OCRouterDemo" */;
+			buildPhases = (
+				86947B96986F413A5E8FF399FE6C5C74 /* Sources */,
+				6049FB78576E4D717F271C0E5DE8DB66 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088D06F582C50679FCB45AE8B3CC8BC8 /* PBXTargetDependency */,
+				FA2B6FD930048B92070C47FBA9C5BFEE /* PBXTargetDependency */,
+				7BEB6458D0DA8E57276EC7D0C232D98A /* PBXTargetDependency */,
+			);
+			name = "Pods-OCRouterDemo";
+			productName = "Pods-OCRouterDemo";
+			productReference = F6CA1435CBAA4C6C2BF578FCE55C4B4C /* libPods-OCRouterDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCE136B7CB3DDE867437C113082D95B2 /* YSIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85031B6FCB9A015AF3E76D0CAE101CE0 /* Build configuration list for PBXNativeTarget "YSIndex" */;
+			buildPhases = (
+				E7A1637E5E3D2220C068BBBB6B3634DD /* Sources */,
+				12CF7D2C061EC53DF111B4704CE258C9 /* Frameworks */,
+				B721E212C3E341937FDEFD3AC45BD5DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSIndex;
+			productName = YSIndex;
+			productReference = CDD62B6FE2B809009B4A781AC477FBAF /* libYSIndex.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A396BB7E92F8FD49137DACC9F61F2C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4931D5BBD6CAE2BB03520B2DDB7B327F /* OCRouter */,
+				BADB3FDDE80C00C26F460C2C23660120 /* Pods-OCRouterDemo */,
+				765605EF21235ACABE8DDCEE91DB1DAA /* YSFind */,
+				CCE136B7CB3DDE867437C113082D95B2 /* YSIndex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CC3505EC058E2E5543B9801E7855AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B4F8953299E2A6F59E4E3206F137DC /* OCRouter-dummy.m in Sources */,
+				45F8BCFA87096EB8FBDD8D7ED97AEB73 /* OCRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86947B96986F413A5E8FF399FE6C5C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A32617E17DC84154DE5FCD967F02D6 /* Pods-OCRouterDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E88353D7CF4D8AA1627D94857C842B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2936D2ADDA771A4E6CBE21184FE61DE /* OCTarget_Find.m in Sources */,
+				C6A91D45A6F4C14BDB32C631DF9F8154 /* YSFind-dummy.m in Sources */,
+				AE6921C7111A3A66640765CF4CF862A6 /* YSFindViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A1637E5E3D2220C068BBBB6B3634DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8290C6FF072AF199571C8D79A169C180 /* OCTarget_Index.m in Sources */,
+				A13F54DE6282A34B62B4373EC460771E /* YSIndex-dummy.m in Sources */,
+				F42C3D3F148692AE46162E065426AB2E /* YSIndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088D06F582C50679FCB45AE8B3CC8BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCRouter;
+			target = 4931D5BBD6CAE2BB03520B2DDB7B327F /* OCRouter */;
+			targetProxy = 95D60FCA2A7ED41B0E1E2F64957D5141 /* PBXContainerItemProxy */;
+		};
+		7BEB6458D0DA8E57276EC7D0C232D98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YSIndex;
+			target = CCE136B7CB3DDE867437C113082D95B2 /* YSIndex */;
+			targetProxy = 42700F8CBD1F2210A97F971E9DF51C34 /* PBXContainerItemProxy */;
+		};
+		FA2B6FD930048B92070C47FBA9C5BFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YSFind;
+			target = 765605EF21235ACABE8DDCEE91DB1DAA /* YSFind */;
+			targetProxy = 14F4ACFD9ADACED1872B2007BCA42098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0052F4BAD3D9EB6E3A960756A24917DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6467A2A14AC13C6B39662DFF046891B /* Pods-OCRouterDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3F4165343F7A2398CAA58A04104F61D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7B508AC0DF4740FDD0CECFB378E3C5 /* OCRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCRouter/OCRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4118326443A5D14DFC20BD606631D6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20443B6638CE6BF9DAD8C62978FF849 /* YSIndex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YSIndex/YSIndex-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F5AFD4F8E4D15A590091A3D31965C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58499EEDD412133DC882566C715FF361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A210AB2039E13F551D9E342A80C9B4 /* YSFind.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YSFind/YSFind-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B47E1BDA968F7767BA7A7B8323E8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E86450299F3C43445230F8E7EE6E1B /* Pods-OCRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A197BF14AB2E531745437425789D25F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A210AB2039E13F551D9E342A80C9B4 /* YSFind.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YSFind/YSFind-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF77A5E20592A79DF5246E9901F0980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7B508AC0DF4740FDD0CECFB378E3C5 /* OCRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCRouter/OCRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD52F4F62AC681B989A84EA2D4DBE5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20443B6638CE6BF9DAD8C62978FF849 /* YSIndex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YSIndex/YSIndex-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F5AFD4F8E4D15A590091A3D31965C2 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F99C5F80FF5B18C64B2B2F8BCE8249 /* Build configuration list for PBXNativeTarget "Pods-OCRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B47E1BDA968F7767BA7A7B8323E8CB /* Debug */,
+				0052F4BAD3D9EB6E3A960756A24917DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1E4CE79E99CA9E2926AAF2D16775BF /* Build configuration list for PBXNativeTarget "YSFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A197BF14AB2E531745437425789D25F6 /* Debug */,
+				58499EEDD412133DC882566C715FF361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85031B6FCB9A015AF3E76D0CAE101CE0 /* Build configuration list for PBXNativeTarget "YSIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52F4F62AC681B989A84EA2D4DBE5BC /* Debug */,
+				4118326443A5D14DFC20BD606631D6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDB3ED2BADE08E110B1B9B4A330191C /* Build configuration list for PBXNativeTarget "OCRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF77A5E20592A79DF5246E9901F0980B /* Debug */,
+				3F4165343F7A2398CAA58A04104F61D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
